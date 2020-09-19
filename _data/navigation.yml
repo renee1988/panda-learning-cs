@@ -1,16 +1,16 @@
 # main links links
 main:
-  - title: "Algorithms"
-    url: /algorithms/
+  - title: "Algorithms & Data structures"
+    url: /algorithms-data-structures/
 
-  - title: "Data structures"
-    url: /data-structures/    
-
-  - title: "Front-end specifics"
+  - title: "Front end"
     url: /front-end/    
         
-  - title: "Become full stack"
+  - title: "Full stack"
     url: /full-stack/
+
+  - title: "Site map"
+    url: /sitemap/
     
   - title: "About"
     url: /about/
