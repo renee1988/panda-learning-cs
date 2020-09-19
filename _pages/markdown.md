@@ -17,6 +17,7 @@ redirect_from:
   * _posts/
   * _teaching/
   * _talks/
+  * _full_stack/
   * _effective_java/
 * Footer: _includes/footer.html
 * Static files (like PDFs): /files/

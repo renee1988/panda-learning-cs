@@ -7,6 +7,10 @@ author_profile: true
 
 {% include base_path %}
 
+{% for post in site.full_stack %}
+  {% include archive-single.html %}
+{% endfor %}
+
 ## Full-stack engineering overview
 UNDER MIGRATION
 
