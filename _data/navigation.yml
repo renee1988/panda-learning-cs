@@ -1,16 +1,16 @@
 # main links links
 main:
-  - title: "Publications"
-    url: /publications/
+  - title: "Algorithms"
+    url: /algorithms/
 
-  - title: "Talks"
-    url: /talks/    
+  - title: "Data structures"
+    url: /data-structures/    
 
-  - title: "Teaching"
-    url: /teaching/    
+  - title: "Front-end specifics"
+    url: /front-end/    
         
-  - title: "Blog Posts"
-    url: /year-archive/
+  - title: "Become full stack"
+    url: /full-stack/
     
   - title: "About"
     url: /about/
