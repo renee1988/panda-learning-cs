@@ -3,10 +3,10 @@ title: 'Item 1: Static Factory Methods'
 # date: 2020-09-20
 # permalink: /effective_java/item-1
 # tags:
-#   - Java
-#   - FullStack
-#   - BestPractice
-#   - BackEnd
+#   - java
+#   - full stack
+#   - best practice
+#   - back end
 excerpt: "Static Factory methods vs. public constructors"
 collection: effective_java
 ---
