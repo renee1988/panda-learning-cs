@@ -9,7 +9,6 @@ tags:
 excerpt: "HTTP2 overview"
 collection: full_stack
 ---
-
 ## HTTP/1.x drawbacks
 
 - Clients need to use multiple TCP connections to achieve concurrency and reduce latency.
