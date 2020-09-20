@@ -5,6 +5,7 @@
 - Site map has redundant links
 
 ## Feature requests & improvements
+- Contributor setion is not set up yet
 - Search is not supported yet
 - Category organization needs improvements
 - Release cycle is not set up yet
