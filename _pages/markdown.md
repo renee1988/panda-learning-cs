@@ -13,10 +13,7 @@ redirect_from:
 * Top navigation bar config: _data/navigation.yml
 * Single pages: _pages/
 * Collections of pages are .md or .html files in:
-  * _publications/
-  * _posts/
-  * _teaching/
-  * _talks/
+  * _leetcode/
   * _full_stack/
   * _effective_java/
 * Footer: _includes/footer.html
