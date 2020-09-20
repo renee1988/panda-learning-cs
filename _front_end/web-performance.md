@@ -252,8 +252,11 @@ self.onmessage(function(e) {
 ```
 
 > Question: What is the difference between making an asynchronous request from the web worker and the main thread?
+
 **Answer**: Inside the main thread, when you make the request to the browser, once it leaves the JS engine, it enters into the world with threaded handling where requests can be handled in parallel. However, as soon as that communication needs to come back to the JS engine, **it has to wait for the JS engine to have a free cycle**. The JS engine won’t have a free cycle until the UI thread is free. While if the request comes back to JS engine but there is a CSS animation going on in the UI thread, your request won’t be handled until the CSS engine finishes its ongoing task.
+
 > Followup: In this case, it sounds like we should just use web workers always.
+
 **Answer**: the communication channel between the main thread and the web worker is **STRING** based, and it is **COPY-ONLY**. Therefore if you have a lot of data to send, you end up with two copies of data in memory until the garbage collector comes along clear them out.
 
 ### Dynamic Memory Allocation - Garbage collector
