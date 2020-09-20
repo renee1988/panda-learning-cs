@@ -1,5 +1,10 @@
 ## STILL UNDER MIGRATION
 
+## Bugs
+- Tags are currently not working
+- Site map has redundant links
+
+
 ## Interested in contributing?
 
 1. Clone the repo
