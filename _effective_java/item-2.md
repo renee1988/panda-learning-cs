@@ -1,7 +1,7 @@
 ---
 title: 'Item 2: Consider a builder when faced with many constructor parameters'
 date: 2020-09-20
-permalink: /effective_java/item-1
+permalink: /effective_java/item-2
 tags:
   - java
   - full stack
