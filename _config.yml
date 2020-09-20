@@ -187,6 +187,9 @@ collections:
   full_stack:
     output: true
     permalink: /:collection/:path/
+  leetcode:
+    output: true
+    permalink: /algorithms-data-structures/:collection/:path/
 
 
 # Defaults
@@ -241,6 +244,17 @@ defaults:
   - scope:
       path: ""
       type: full_stack
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  # _leetcode
+  - scope:
+      path: ""
+      type: leetcode
     values:
       layout: single
       author_profile: true
