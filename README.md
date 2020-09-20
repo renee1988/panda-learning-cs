@@ -4,6 +4,11 @@
 - Tags are currently not working
 - Site map has redundant links
 
+## Feature requests & improvements
+- Search is not supported yet
+- Category organization needs improvements
+- Release cycle is not set up yet
+- Release notification to subscribers is not set up yet
 
 ## Interested in contributing?
 
