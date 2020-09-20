@@ -89,10 +89,11 @@ It takes advantage of cookies (basic authentication credentials) are passed alon
 ```
 
 ### COOKIE FLOW
-
+```
 Web application -------------------AUTHENTICATION (login)------------------> Web server
 
                         |----------AUTHENTICATION (cookie)-------|
+```
 
 Consider you have some web application, upon logging in, you get some cookies which will be stored in your web browser. Whenever you are making a request to the web server,
 
