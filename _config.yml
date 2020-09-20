@@ -184,6 +184,9 @@ collections:
   leetcode:
     output: true
     permalink: /algorithms-data-structures/:collection/:path/
+  front_end:
+    output: true
+    permalink: /:collection/:path/
 
 
 # Defaults
@@ -232,6 +235,17 @@ defaults:
   - scope:
       path: ""
       type: leetcode
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  # _front_end
+  - scope:
+      path: ""
+      type: front_end
     values:
       layout: single
       author_profile: true
