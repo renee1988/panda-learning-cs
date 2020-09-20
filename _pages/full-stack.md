@@ -19,6 +19,6 @@ UNDER MIGRATION
 
 <h2>
     <a href="https://renee1988.github.io/panda-learning-cs//effective_java/">
-        Effective Java
+        Effective Java - IN PROGRESS
     </a>
 </h2>
