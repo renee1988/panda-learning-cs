@@ -30,4 +30,4 @@ bundle exec jekyll liveserve;
 
 4. Check your changes on localhost:4000
 
-*Note: please make sure the changes are not breaking the site before sending out PR..*
+*Note: please make sure the changes are not breaking the site before sending out PR.*
