@@ -1,5 +1,5 @@
 ---
-title: 'This Reference in JavaScript'
+title: '`this` Reference in JavaScript'
 date: 2020-09-20
 permalink: /front-end/this-js
 tags:
@@ -10,10 +10,12 @@ collection: front_end
 excerpt: ""
 ---
 
-## This in Global Environment
+Author: [Chace46](https://github.com/Chace46)
 
-- Under "use strict", 'this' is undefined.
-- Otherwise, 'this' refers to window. 
+## `this` in Global Environment
+
+- Under "use strict", `this` is undefined.
+- Otherwise, `this` refers to window. 
 
 **Example exercise:**
 
@@ -26,10 +28,10 @@ function foo() {
 foo(); // undefined
 ```
 
-## This in Object
+## `this` in Object
 
-- If 'this' is directly called by the upper level object, 'this' refers to the upper level object.
-- Otherwise, 'this' refers to global environment (window).
+- If `this` is directly called by the upper level object, `this` refers to the upper level object.
+- Otherwise, `this` refers to global environment (window).
 
 **Example exercise:**
 
@@ -56,7 +58,7 @@ foo.fn(); //{name: 'Jack', fn: f}, 'Jack'
 foo.classmate.fn(); //'Annie'
 ```
 
-- What's more, if we call the function of one object in another object, the conclusion of 'this' in object still hold.
+- What's more, if we call the function of one object in another object, the conclusion of `this` in object still hold.
 
 **Example exercise:**
 ```javascript
@@ -80,9 +82,9 @@ console.log(student2.fn()); // 'Jack'
 
 ## Explicitly Bind (Call, Apply, Bind and New)
 
-- For Call and Apply, they change the reference of 'this' and execute the function.
-- For Bind, it changes the reference of 'this' but not executes the function.
-- For New, when we new a object, actually we refer 'this' of construtor function to our instance (protoType and \_\_proto\_\_).
+- For Call and Apply, they change the reference of `this` and execute the function.
+- For Bind, it changes the reference of `this` but not executes the function.
+- For New, when we new a object, actually we refer `this` of construtor function to our instance (`protoType` and `__proto__`).
 
 **Example exercise:**
 ```javascript
@@ -102,7 +104,7 @@ console.log(student1.fn.apply(student2)); //Annie
 console.log(student1.fn.call(student2)); //Annie
 ```
 
-- When we do explicitly bind again, the reference will update.
+- When we do explicit bind again, the reference will update.
 
 **Example exercise:**
 ```javascript
@@ -120,7 +122,7 @@ console.log(student2.name); //'Annie'
 
 ## Arrow Function
 
-- In arrow function, 'this' refers to the outer function or environment.
+- In arrow function, `this` refers to the outer function or environment.
 
 **Example exercise:**
 
@@ -140,4 +142,3 @@ const student = {
 student.fn(); //undefined
 student.fn2()(); //Jack
 ```
-
