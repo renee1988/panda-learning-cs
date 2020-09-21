@@ -9,6 +9,7 @@
 - Search is not supported yet
 - Category organization needs improvements
 - Release notification to subscribers is not set up yet
+- Enhance local development
 
 ## Interested in contributing?
 
