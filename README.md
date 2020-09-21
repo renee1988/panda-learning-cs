@@ -8,7 +8,6 @@
 - Contributor setion is not set up yet
 - Search is not supported yet
 - Category organization needs improvements
-- Release cycle is not set up yet
 - Release notification to subscribers is not set up yet
 
 ## Interested in contributing?
@@ -30,4 +29,6 @@ bundle exec jekyll liveserve;
 
 4. Check your changes on localhost:4000
 
-*Note: please make sure the changes are not breaking the site before sending out PR.*
+## Note
+- Please make sure the changes are not breaking the site before sending out PR.
+- `release` branch is deployed branch to production currently. Any code change made in `release` branch need a pull request and review from the code owner.
