@@ -30,5 +30,5 @@ bundle exec jekyll liveserve;
 4. Check your changes on localhost:4000
 
 ## Note
-- Please make sure the changes are not breaking the site before sending out PR.
+- Please make sure the changes are not breaking the site before pushing to `master` branch.
 - `release` branch is deployed branch to production currently. Any code change made in `release` branch need a pull request and review from the code owner.
