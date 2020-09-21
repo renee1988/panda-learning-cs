@@ -13,12 +13,14 @@
 
 ## Interested in contributing?
 
-1. Clone the repo
+1. Please email or message me your github account so that I can add you as a contributor to this repository.
+
+2. Clone the repo
 ```
 git clone https://github.com/renee1988/panda-learning-cs.git
 ```
 
-2. Run changes locally
+3. Run changes locally
 ```
 sudo apt install ruby-dev ruby-bundler nodejs;
 bundle clean;
@@ -26,6 +28,6 @@ bundle install;
 bundle exec jekyll liveserve;
 ```
 
-3. Check your changes on localhost:4000
+4. Check your changes on localhost:4000
 
 *Note: please make sure the changes are not breaking the site before sending out PR..*
