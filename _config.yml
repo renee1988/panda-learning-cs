@@ -253,6 +253,17 @@ defaults:
       comments: true
       share: true
       related: true
+  # _rx_js
+  - scope:
+      path: ""
+      type: rx_js
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
 
 # Sass/SCSS
 sass:
