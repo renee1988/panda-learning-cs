@@ -27,7 +27,7 @@ The entire application would pause/sit idle waiting for the data to be loaded an
 Other than horrible user experience, browsers may deem your scripts unresponsive after a certain period of inactivity and terminate them.
 
 ### Non-blocking code with callback functions
-<img src="/images/rx-js-cb.png">
+<img src="https://renee1988.github.io/panda-learning-cs//images/rx-js-cb.png">
 
 As a single-threaded language, JavaScript provides callback functions to tackle the problem of blocking for long-running operations to complete by allowing you to provide a handler function that the JavaScript runtime will invoke once the data is ready to use.
 - JavaScript callback functions create **inversion of control** where functions call the application back insetad of the other way around.
